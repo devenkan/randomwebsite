@@ -7,5 +7,5 @@ while True:
 	visit="http://{}".format(sites)
 	webbrowser.open(visit)
 	seconds=random.randrange(5,20)
-	 # Delay for 1 minute (60 seconds).
+	 # Delay for random minutes
 	time.sleep(seconds)
